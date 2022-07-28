@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body {
+
+    background-color: grey;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-size: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+
+}
+
+nav ul li {
+   padding: 0 12px;
+}
+
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('https://wallpapers.com/images/high/girl-with-black-headphone-a09f6yk2y3h937yo.jpg');
+}
+
+.bottom {
+    position: sticky;
+    height: 130%;
+    bottom: 0;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 14px;
+}
+#myProgressBar {
+    width: 80vw;
+}
+.songItemContainer {
+    margin-top: 74px;
+}
+.songItem {
+    height: 35px;
+    display: flex;
+    color:black;
+    background-color: white;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+    
+
+.songItem img{
+    width: 33px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 23px;
+   
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+   
+
+ 
